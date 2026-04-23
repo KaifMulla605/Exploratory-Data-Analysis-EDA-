@@ -1,0 +1,8 @@
+- The dataset contains 891 records and 12 features with no missing values after preprocessing.
+- Survival is imbalanced, with a higher number of passengers not surviving.
+- Male passengers significantly outnumber female passengers.
+- Most passengers traveled in third class, indicating class imbalance.
+- Fare distribution is highly skewed with several extreme outliers.
+- Most passengers traveled alone, as indicated by low SibSp and Parch values.
+- Text features such as Ticket and Cabin have high cardinality and were represented using word-frequency visualizations.
+- Columns with 100% unique values (e.g., PassengerId, Name) were identified as identifiers and are not useful for modeling.
