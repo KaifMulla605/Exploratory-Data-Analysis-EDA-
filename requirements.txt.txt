@@ -1,0 +1,16 @@
+Steps to Run
+
+1. Install Dependencies
+pip install -r requirements.txt
+
+2. Run EDA Script
+python eda.py
+
+3. Output
+A detailed automated EDA report will be generated as:
+report.html
+
+
+pandas
+numpy
+ydata-profiling
